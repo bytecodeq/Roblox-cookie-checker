@@ -9,6 +9,8 @@ __Social__ = "github.com/evilstrix"
 try:
     import asyncio
     import aiohttp
+    import time
+    from time import sleep
     import random
     import os
     import datetime
