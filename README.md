@@ -2,7 +2,9 @@
 
 <p align="center"><img src="https://github.com/imvast/imvast/blob/main/footer.png?raw=true" alt="project-image"></p>
 
-<p id="description">A roblox cookie checker that supports multiple cookies 👑 &gt; What we are looking forward to add soon : 1.A cookie generator 2.A cookie Humanizer This project will basically be an advanced generator</p>
+<p id="description">A roblox cookie checker that supports multiple cookies 👑 &gt; What we are looking forward to add soon : 
+  1.A cookie generator
+  2.A cookie Humanizer This project will basically be an advanced generator</p>
 
 <p align="center"><img src="https://img.shields.io/badge/Roblox Cookie Generator-blue" alt="shields"><img src="https://img.shields.io/badge/Roblox Cookie Checker-blue" alt="shields"><img src="https://img.shields.io/badge/Roblox Cookie Humanizer-blue" alt="shields"></p>
 
