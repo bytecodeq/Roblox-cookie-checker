@@ -43,17 +43,14 @@ class Colors:
     lb: str = "\033[90m"  # gray
 
 class Utils:
-    @staticmethod
     def clear():
         os.system('clear||cls')
 
-    @staticmethod
     def title():
         os.system(f'title Cookie Checker ┃ Made by Strix ┃ github.com/evilstrix')
 
     timestamp = datetime.datetime.now().strftime(f'{Colors.a}%H{Colors.a}{Colors.l}:{Colors.l}{Colors.a}%M{Colors.a}{Colors.l}:{Colors.l}{Colors.a}%S')
-
-    @staticmethod
+    
     def size():
         System.Size(86, 25)
 
@@ -81,10 +78,10 @@ banner = f"""
 ╚═╝ ┴ ┴└─┴┴ └─"""
 
 def generate_headers() -> Dict[str, str]:
-    user_agent = UserAgent()
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     build_number = "Windows 10"
     headers = {
-        'User-Agent': user_agent.random,
+        'User-Agent': user_agent,
         'Accept-Language': 'en-US,en;q=0.9',
         'Accept-Encoding': 'gzip, deflate, br',
         'Connection': 'keep-alive',
@@ -98,7 +95,7 @@ def generate_headers() -> Dict[str, str]:
 
     Utils.clear()
     print(Center.XCenter(banner))
-    print(f"{Colors.lb}DBG{Colors.lb} {Colors.a}»{Colors.a} {Colors.a}{Colors.lb}[{Colors.lb}{Colors.a}Header Info{Colors.a}{Colors.lb}]{Colors.lb} {Colors.lb}->{Colors.lb} {Colors.c}User-Agent:{Colors.c} {user_agent.random[:40]}")
+    print(f"{Colors.lb}DBG{Colors.lb} {Colors.a}»{Colors.a} {Colors.a}{Colors.lb}[{Colors.lb}{Colors.a}Header Info{Colors.a}{Colors.lb}]{Colors.lb} {Colors.lb}->{Colors.lb} {Colors.c}User-Agent:{Colors.c} {user_agent[:40]}")
     sleep(2)
     print(f"{Colors.lb}DBG{Colors.lb} {Colors.a}»{Colors.a} {Colors.a}{Colors.lb}[{Colors.lb}{Colors.a}Header Info{Colors.a}{Colors.lb}]{Colors.lb} {Colors.lb}->{Colors.lb} {Colors.c}Build Number:{Colors.c} {build_number[:38]}")
     print(f"{Colors.lb}DBG{Colors.lb} {Colors.a}»{Colors.a} {Colors.a}{Colors.lb}[{Colors.lb}{Colors.a}Header Info{Colors.a}{Colors.lb}]{Colors.lb} {Colors.lb}->{Colors.lb} {Colors.c}Accept-Language:{Colors.c} en-US,en;q=0.9")
