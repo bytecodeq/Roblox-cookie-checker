@@ -4,7 +4,7 @@
 """
 
 __Author__ = "Strix"
-__Social__ = "github.com/evilstrix"
+__Social__ = "github.com/bytecodeq"
 
 try:
     import asyncio
@@ -47,7 +47,7 @@ class Utils:
         os.system('clear||cls')
 
     def title():
-        os.system(f'title Cookie Checker ┃ Made by Strix ┃ github.com/evilstrix')
+        os.system(f'title Cookie Checker ┃ Made by Bytecodeq ┃ github.com/evilstrix')
 
     timestamp = datetime.datetime.now().strftime(f'{Colors.a}%H{Colors.a}{Colors.l}:{Colors.l}{Colors.a}%M{Colors.a}{Colors.l}:{Colors.l}{Colors.a}%S')
     
