@@ -1,5 +1,5 @@
 """
--> Author: github.com/evilstrix
+-> Author: github.com/bytecodeq
 -> Date: 24.11.2024 
 """
 
